@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu&display=swap');
+*{
+  margin:0;
+  padding: 0;
+}
+body {
+    background-color: lightgrey;
+}
+
+#navbar{
+  display: flex;
+  background-color: black;
+  height:35px;
+  line-height: 35px;
+}
+#logo{
+   width: 27px;
+   margin-top:0;
+}
+.navlist{
+  display: flex;
+}
+.navlist li{
+  list-style: none;
+  margin-left:20px;
+}
+#no-margin{
+  margin-left:0;
+  padding: 0;
+}
+.navlist li a{
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+  font-size: 1rem;
+  color: #00bfa6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navlist li a:hover{
+  border-radius: 0.3rem;
+  background-color:grey;
+}
+#Content_container img{
+  background: #fff;
+  margin-top: 20px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  width: 85%;
+  border: 2px solid black;
+  border-radius:0.3rem;
+}
+.content{
+  padding:0.5rem;
+  margin-top: 20px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  font-family: 'Baloo Bhai 2';
+  font-weight:bold;
+  font-size: 1.5rem;
+  border:2px solid black;
+  border-radius: 0.3rem;
+  background-color:#fff;
+}
+.content p{
+  text-transform: capitalize;
+}
+.content p a{
+  text-decoration: none;
+  color:black;
+  
+}
+#address-hr{
+  width:150px;
+}
+.content u{
+  margin-bottom:0px;
+}
+
+.content hr{
+  border-radius: 0.3rem;
+  border-top: 3px solid #00bfa6;
+  width:200px;
+  margin-top:0px;
+}
+#contact-list li{
+  list-style:none;
+}
+#contact-list li a{
+  text-decoration: none;
+  color: #00bfa6;
+}
+.content span{
+  color:#00bfa6;
+  font-weight:bold;
+}
+.content .text3{
+  font-size: 1.75rem;
+  color: #00bfa6;
+  font-weight: bold;
+}
+.btn a , .btn{
+  border-radius: 0.4rem;
+  background-color: black;
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+  font-size: 1.22rem;
+  color: #00bfa6;
+}
+/*Services Page Styling*/
+.services_content{
+  padding:1rem;
+  margin-top: 25px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  border: 1px solid #fff;
+  border-radius:0.3rem;
+  background-color:#fff;
+  font-family:'Baloo Bhai 2';
+}
+.services_content hr{
+  border-radius: 0.3rem;
+  border-top: 3px solid #00bfa6;
+  width:150px;
+  margin-top:0px;
+}
+.services_content ol,p{
+  font-weight: bold;
+  font-size:1.2rem;
+  text-transform: capitalize;
+}
+.services_content #base_line{
+  width:100%;
+}
+
+/*Contact Page Styling*/
+.contact_content{
+  padding:1rem;
+  margin-top: 25px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  border: 1px solid #fff;
+  border-radius:0.3rem;
+  background-color:#fff;
+  font-family:'Baloo Bhai 2';
+}
+.contact_content form input{
+  font-family: 'Ubuntu';
+  display:block;
+  width:100%;
+  background-color:lightgrey;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  border:1px solid lightgrey;
+  padding:0.2rem;
+}
+input::placeholder{
+  color: black;
+}
+.contact_content form label{
+  font-weight: bold;
+}
+
+/*Doctors Page Styling*/
+#doctors_content{
+  padding:1rem;
+  margin-top: 25px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  border: 1px solid #fff;
+  border-radius:0.3rem;
+  background-color:#fff;
+  font-family:'Baloo Bhai 2';
+}
+#doctors_content hr{
+  border-radius: 0.3rem;
+  border-top: 3px solid #00bfa6;
+  width:140px;
+  margin-top:0px;
+}
+#doctors_content img{
+  border:none;
+  width:100px;
+}
+#doctors_content .max-width {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  margin:0;
+}
+#doctors_content h3{
+  color:#00bfa6;
+}
